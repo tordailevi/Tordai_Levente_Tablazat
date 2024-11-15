@@ -1,0 +1,24 @@
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin:auto;
+    min-width: 500px;
+}
+
+thead th {
+    border: none;
+}
+
+tbody tr td {
+    border-bottom: 1px solid rgb(110, 55, 55);
+    border-top: 1px solid rgb(110, 55, 55);
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.reszponzivkutyatablazat{
+    overflow-x: auto;
+}
